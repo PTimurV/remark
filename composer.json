@@ -1,0 +1,18 @@
+{
+    "name": "timur/bitrix_test_task",
+    "autoload": {
+        "psr-4": {
+            "Timur\\BitrixTestTask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PTimurV",
+            "email": "stud0000222598@study.utmn.ru"
+        }
+    ],
+    "require": {
+        "mesilov/bitrix24-php-sdk": "^1.3",
+      "ext-json": "*"
+    }
+}

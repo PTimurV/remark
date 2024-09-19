@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'timur/bitrix_test_task',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'mesilov/bitrix24-php-sdk' => array(
+            'pretty_version' => '1.3',
+            'version' => '1.3.0.0',
+            'reference' => '86957806f88a9e9b74d8aef4debda222646c4621',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mesilov/bitrix24-php-sdk',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '3.0.2',
+            'version' => '3.0.2.0',
+            'reference' => 'f16e1d5863e37f8d8c2a01719f5b34baa2b714d3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'timur/bitrix_test_task' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
